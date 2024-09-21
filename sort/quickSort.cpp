@@ -1,7 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <cstdlib>
-#include <ctime>
 
 using namespace std;
 
@@ -32,8 +30,6 @@ void quickSort(vector<int>& nums, int left, int right)
         quickSort(nums,partitionIndex+1, right);//枢轴元素右区间
     }
 }
-
-
 
 int main() {
     std::vector<int> nums = {10,9,8,7,6,5,4,3,2,1};
